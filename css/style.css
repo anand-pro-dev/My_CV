@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    border: none;
+    margin: 5px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover {
+    color: rgb(197, 194, 194);
+}
+
+.rightNav {
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+.rightNav img {
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+
+
+.background {
+    background: rgba(0, 0, 0, 0.5) url('../image/Office1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 110vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 70%;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 41px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+.text-download {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 15px 25px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color:wheat;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+
+}
+.btn:hover {
+    background-image: linear-gradient(to top, #48a4f06c,  #194d77d7, #48a4f06f);
+    border: 2px solid rgba(45, 51, 172, 0.367);
+    border-radius: 8px;
+     
+    color:  rgba(245, 245, 247, 0.988);
+    cursor: pointer;
+  
+}
+
+.btn-dark {
+    color: rgb(7, 7, 7);
+    border: 2px solid rgb(199, 24, 24);
+
+}
+
+#about 
+{
+    padding-top: 7%;
+}
+
+.u-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+}
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.sectionTag {
+    padding: 16px 0;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: none;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+
+.contact {
+    background-color: #f6f5f4;
+    height: 350px;
+}
+
+.contact-item{
+   padding-top: 5%;
+   padding-left: 10%;
+}
+
+.context-logo{
+    margin: auto;
+    display: flex;
+    padding-left: 1%;
+    background-color: #f6f5f4;
+
+}
+
+.context-logo img{
+    display: flex;
+    padding-left:70%;
+    padding-bottom: 2%;
+    
+
+}
+
+.text-center {
+
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+ 
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.footer-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-list li {
+    list-style: none;
+    padding: 30px 30px;
+
+
+}
+
+.footer-list li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ 
+
+.footer-list li a:hover {
+    color: rgb(197, 194, 194);
+}
+
+
+
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
