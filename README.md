@@ -1,3 +1,3 @@
 # My-CV
 
-https://aanandprodev.github.io/My_CV/
+ https://anand-pro-dev.github.io/My_CV/
